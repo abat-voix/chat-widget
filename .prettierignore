@@ -1,0 +1,7 @@
+/dist/**
+/node_modules/**
+/coverage/**
+/build/**
+/docs/**
+/yarn.lock
+/package.json

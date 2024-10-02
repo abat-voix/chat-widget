@@ -1,0 +1,10 @@
+{
+  "app_name": {
+    "message": "Smart assistant DOLMA",
+    "description": "DOmain and Land Management Advisor"
+  },
+  "app_slogan": {
+    "message": "DOmain and Land Management Advisor for https://investmoscow.ru/",
+    "description": "the slogan of the extension"
+  }
+}

@@ -1,0 +1,31 @@
+.code {
+  padding: 0;
+  border-radius: 0.25rem;
+  overflow: hidden;
+
+  & > div {
+    margin: 0 !important;
+  }
+
+  .fa {
+    font-style: normal !important;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: #191919;
+  height: 2.5rem;
+  padding: 0.1rem 0.1rem 0 0.5rem;
+}
+
+.imagePreview {
+  text-align: center;
+
+  img {
+    max-width: 30rem !important;
+    display: block;
+  }
+}

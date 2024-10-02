@@ -1,0 +1,10 @@
+{
+  "app_name": {
+    "message": "Умный помощник DOLMA",
+    "description": "Умный помощник по комплексному подбору инвестиционных площадок"
+  },
+  "app_slogan": {
+    "message": "Расширение для сайта https://investmoscow.ru/ для помощи в подборе инвестиционных площадок",
+    "description": "Расширение для сайта https://investmoscow.ru/"
+  }
+}

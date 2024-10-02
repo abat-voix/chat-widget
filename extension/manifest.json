@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_app_name__",
+  "default_locale": "ru",
+  "version": "1.0",
+  "description": "__MSG_app_slogan__",
+  "icons": {},
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "activeTab",
+    "scripting",
+    "cookies"
+  ],
+  "host_permissions": ["https://prod.api.invest.yapa.one/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://investmoscow.ru/*", "http://investmoscow.ru/*"],
+      "js": ["contentScript.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "iframe.html",
+        "static/js/*",
+        "static/css/*",
+        "icons/chat-outline.png",
+        "icons/close.png"
+      ],
+      "matches": ["https://investmoscow.ru/*", "http://investmoscow.ru/*"]
+    }
+  ]
+}
